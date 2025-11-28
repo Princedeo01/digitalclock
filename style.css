@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    background: #111;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
+}
+
+#clock {
+    color: cyan;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
